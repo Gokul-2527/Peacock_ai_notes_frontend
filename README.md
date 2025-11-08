@@ -29,7 +29,7 @@ It connects with the Hono.js backend API to provide user authentication, note ma
 
 ## Tech Stack
 
-- **Framework**: Next.js 13 (App Router)
+- **Framework**: Next.js 16 (App Router)
 - **Language**: TypeScript
 - **Styling**: TailwindCSS
 - **State Management**: React Context for search
@@ -45,8 +45,8 @@ It connects with the Hono.js backend API to provide user authentication, note ma
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/ai-notes-app-frontend.git
-cd ai-notes-app-frontend
+git clone https://github.com/yourusername/Peacock_ai_notes_frontend.git
+cd Peacock_ai_notes_frontend/frontend
 
 2. Install dependencies:
 npm install
