@@ -1,6 +1,6 @@
 # AI Notes App Frontend (Next.js + TypeScript + TailwindCSS)
 
-This is the **frontend** for the AI Notes App, built using **Next.js 13 App Router**, **TypeScript**, and **TailwindCSS**.  
+This is the **frontend** for the AI Notes App, built using **Next.js 16 App Router**, **TypeScript**, and **TailwindCSS**.  
 It connects with the Hono.js backend API to provide user authentication, note management, and AI-powered features like summaries, improved content, and tag suggestions.
 
 ---
