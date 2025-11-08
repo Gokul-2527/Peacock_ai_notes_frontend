@@ -28,6 +28,7 @@ import {
   DialogDescription,
 } from "@/components/ui/dialog";
 import { useSearch } from "@/context/HeaderSearch";
+import { deleteCookie } from "cookies-next";
 type UserProfile = {
   name: string;
   email: string;
@@ -91,10 +92,11 @@ export default function Header() {
   }, []);
 
   const handleLogout = () => {
-    localStorage.removeItem("token");
+    deleteCookie("jwtToken");
+    localStorage.clear();
     setModalOpen(false);
     toast.success("Logged out successfully");
-    setTimeout(() => router.push("/Auth/Login"), 800);
+    router.push("/Auth/Login");
   };
 
   return (
